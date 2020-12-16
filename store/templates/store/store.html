@@ -1,0 +1,36 @@
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+	<div class="row">
+		<div class="col-lg-4">
+			<img class="thumbnail" src="{% static 'images/product1.jpg' %}">
+			<div class="box-element product">
+				<h6><strong>Men's Black Hoodie</strong></h6>
+				<hr>
+				<button  class="btn btn-outline-secondary add-btn">Add to Cart</button>
+				<a class="btn btn-outline-success" href="/prod_det_1">View</a>
+				<h4 style="display: inline-block; float: right"><strong>200SR</strong></h4>
+		</div>
+		</div>
+		<div class="col-lg-4">
+			<img class="thumbnail" src="{% static 'images/product2.jpg' %}">
+			<div class="box-element product">
+				<h6><strong>Men's Orange Hoodie</strong></h6>
+				<hr>				
+				<button  class="btn btn-outline-secondary add-btn">Add to Cart</button>
+				<a class="btn btn-outline-success" href="/prod_det_2">View</a>
+				<h4 style="display: inline-block; float: right"><strong>200SR</strong></h4>		
+		</div>
+		</div>
+		<div class="col-lg-4">
+			<img class="thumbnail" src="{% static 'images/product3.jpg' %}">
+			<div class="box-element product">
+			<h6><strong>Men's Blue Hoodie</strong></h6>
+			<hr>
+			<button  class="btn btn-outline-secondary add-btn">Add to Cart</button>
+			<a class="btn btn-outline-success" href="/prod_det_3">View</a>
+			<h4 style="display: inline-block; float: right"><strong>200SR</strong></h4>
+	</div>
+	</div>
+	</div>
+{% endblock content %}
